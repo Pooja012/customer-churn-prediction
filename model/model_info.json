@@ -1,0 +1,32 @@
+{
+  "model": "GradientBoostingClassifier",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "threshold": 0.15,
+  "cv_auc": 0.8493,
+  "test_auc": 0.846,
+  "features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ]
+}
