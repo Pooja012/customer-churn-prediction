@@ -64,5 +64,4 @@ pip install -r requirements.txt
 
 python predict.py                                          # high-risk example
 python predict.py --file examples/low_risk_customer.json   # low-risk example
-```
-Example output:
+
